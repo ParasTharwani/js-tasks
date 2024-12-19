@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.one {
+    margin-top: 10px;
+}
+.one .chatbot{
+    margin: auto;
+    width: 60vw;
+    background-color: rgb(210, 171, 218);
+    height : 90vh;
+    overflow: auto;
+}
+.chatbot .heading {
+    border:2px solid  rgb(156, 61, 175) ;
+    border-radius: 10px;
+
+}
+.chatbot .heading h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(117, 41, 117);
+}
+.chatbot .heading img{
+    width: 10%; 
+}
+.chatbot .heading {
+    display: flex;
+    justify-content: center;
+}
+
+.message input {
+   position: absolute;
+   bottom: 0%;
+   padding: 25px;
+    width: 60%;
+    border: 2px solid  rgb(156, 61, 175) ;
+    border-radius: 10px;
+}
+.list {
+    /* width: 100%; */
+    padding: 10px;
+
+}
+.list li {
+
+    background-color: rgb(240, 226, 243);
+    color: rgb(27, 25, 25);
+    list-style: none; 
+    padding: 10px;
+  margin-top: 10px;
+    border-radius: 10px;
+    width:fit-content ;
+    margin-bottom: 10px;
+}
+.list .left {
+   
+    border: 2px solid rgb(156, 61, 175) ;
+}
+.list .right{
+    text-align: center;
+    margin-left: 600px;
+    width: fit-content;
+  background-color:  rgb(113, 6, 134);
+  color: white;
+  border: 1px solid black;
+}
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(156, 61, 175) ;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}

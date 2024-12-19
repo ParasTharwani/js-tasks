@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #71d3cf, #fed6e3);
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .main {
+  
+    width: 40vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  .todo-container{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d6cdf;
+  }
+  .todo-container > input {
+    width: 55%;
+  padding: 10px;
+  border: 2px solid #2d6cdf;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 16px
+  }
+  .todo-container > input:focus{
+    border-color: #1a4ba0;
+  }
+  .add-btn {
+   
+    padding: 10px;
+    background-color: #2d6cdf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .add-btn:hover {
+    background-color: #1a81a0;
+  }
+ 
+  .delete-all{
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .delete-all:hover {
+    background-color: #e64a4a;
+  }
+  .list {
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  .list > li {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+
+  }
+  .list > li:hover{
+    background-color: #e2e6ef;
+
+  }
+  .list > li > input{
+    width: fit-content;
+    flex-grow: 1;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+  .list > li > .focus-input{
+    border-bottom: 2px solid rgb(29, 89, 145);
+    outline: none;
+  }
+  .delete{
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0px 10px;
+    
+  }
+  .edit {
+    padding: 10px;
+    background-color: #040952;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
